@@ -1,8 +1,8 @@
 # AR Tag Detection and Tracking 
 <p>This project involves the detection of a custom AR tag which can be used for obtaining a point of reference in the real world. Localization is very important for most robot applications and is especially so in applications such as augmented reality.</p>
 There are two stages in this project:
-* Detection: Finding the AR tag from the given image sequence
-* Tracking: Keeping the tag "in view" throughout the sequence and processing image processing operations based on the tag's orientation and position.
+1. Detection: Finding the AR tag from the given image sequence
+2. Tracking: Keeping the tag "in view" throughout the sequence and processing image processing operations based on the tag's orientation and position.
 
 ## Detection
 The task here was to to detect the tag in every frame of the video . To do this, the background in the video had to ve eliminated and FFT (Fast Fourier Transform) was later applied to this to find the edges.
