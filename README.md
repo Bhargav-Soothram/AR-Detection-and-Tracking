@@ -14,7 +14,7 @@ Once we have the four corners of the tag, we can perform homography estimation t
 
 ## Instructions
 Following are the instructions required to run the script:
-- cd to the directory where the package is placed and ececute the command >python proj1_final.py
+- cd to the directory where the package is placed and ececute the command > python proj1_final.py
 - When the program is executed, you will be prompted to enter a 0 or 1: 0 gives the cube visualization and 1 gives the testudo superimposition
 - Please press any key to shut the program down
 - Libraries used: cv2, numpy, matplotlib, scipy, os and copy
